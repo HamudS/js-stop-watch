@@ -1,0 +1,35 @@
+h1, h2,p {
+  font-family: Lato;
+  color: yellowgreen;
+  text-align: center;
+}
+p{
+  font-size: 45px;
+  font-weight: bold;
+  color: yellow;
+}
+#app{
+  background-color: black;
+  padding: 1em 1em 6em 1em;
+  margin: 1em ;
+  width: 90%;
+  /* height: 500px; */
+  border-radius: 10px;
+  text-align: center;
+  
+  
+}
+button{
+  color: black;
+  background-color:yellowgreen;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+  border-color: yellow;
+}
+span{
+  background: yellowgreen;
+  color: black;
+}
