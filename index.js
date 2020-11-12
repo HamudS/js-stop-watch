@@ -25,7 +25,7 @@ function run(){
 
   timer[0] = Math.floor((timer[3]/100)/60);
   timer[1] = Math.floor((timer[3]/100) - (timer[0] * 60));
-  timer[2] = Math.floor(timer[3] - (timer[1] * 100) - timer[0] * 60);
+  timer[2] = Math.floor(timer[3] - (timer[1] * 100) - timer[0] * 6000);
 
 }
 
