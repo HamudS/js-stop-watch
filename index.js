@@ -42,6 +42,25 @@ function reset(){
   displayTime.innerHTML = "00:00:00";
 }
 
+function startVis(){
+  btnStart.style.display = "none";
+  btnStop.style.display = "inline-block";
+  btnReset.style.display = "inline-block";
+} 
+function stopVis(){
+  btnStop.style.display = "none";
+  btnStart.style.display = "inline-block";
+
+}
+function resetVis(){
+  btnStop.style.display = "none";
+  btnReset.style.display = "none";
+  btnStart.style.display = "inline-block";
+}
+
 btnStart.addEventListener("click", runTimer, false);
+btnStart.addEventListener("click", startVis, false);
+btnReset.addEventListener("click", resetVis, false);
+btnStop.addEventListener("click", stopVis, false);
 btnStop.addEventListener("click", stop, false);
 btnReset.addEventListener("click", reset, false);
