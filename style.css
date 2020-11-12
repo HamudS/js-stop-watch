@@ -9,7 +9,7 @@ p{
   color: yellow;
 }
 #app{
-  background-color: black;
+  background-color: #706897;
   padding: 1em 1em 6em 1em;
   margin: 1em ;
   width: 90%;
@@ -20,8 +20,7 @@ p{
   
 }
 button{
-  color: black;
-  background-color:white;
+  background-color:#fff;
   border-radius: 7px;
   font-size: 20px;
   padding: 10px;
@@ -34,14 +33,17 @@ span{
   color: black;
 }
 .btnReset, .btnStop{
-  display: ;
+  display: none;
 }
 .btnStart{
-  border: 2px solid rgb(255, 46, 115);
+  color: #51adcf;
+  border: 3px solid #51adcf;
 }
 .btnStop{
-  border: 2px solid rgb(255, 251, 45);
+  color: #e11d74;
+  border: 3px solid #e11d74;
 }
 .btnReset{
-  border: 2px solid #4CAF50;
+  color: #810000;
+  border: 3px solid #810000;
 }
