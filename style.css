@@ -10,13 +10,20 @@ p{
 }
 #app{
   background-color: #706897;
-  padding: 1em 1em 6em 1em;
-  margin: 1em ;
-  width: 90%;
-  /* height: 500px; */
+  padding: 1em ;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* display: flexbox;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto; */
+  width: 400px;
   border-radius: 10px;
   text-align: center;
-  
   
 }
 button{
@@ -46,4 +53,13 @@ span{
 .btnReset{
   color: #810000;
   border: 3px solid #810000;
+}
+.back{
+  padding: 3%;
+  background:#4f8a8b;
+  height: 200px;
+}
+body{
+  margin: 0em;
+  background-color: #222831;
 }
